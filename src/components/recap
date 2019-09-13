@@ -1,0 +1,11 @@
+store
+
+reducer: pure function that returns a state
+
+    initial state: state returned from a reducerbefore dispatching anything
+
+actions
+    next state: current state + action
+        action: object with a key type. key type is usually a string
+
+store.dispatch : method of the store, used to dispatch an action
