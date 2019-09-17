@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
 import PizzaListContainer from './components/PizzaListContainer'
-import PizzaFormContainer from './components/PizzaFormContainer'
+import PizzaDeitalsContainer from './components/PizzaDetailsContainer'
+import AddPizzaFormContainer from './components/AddPizzaFormContainer'
 
 function App() {
   return (
     <div>
       <PizzaListContainer />
-      <PizzaFormContainer />
+      <PizzaDeitalsContainer />
+      <AddPizzaFormContainer />
     </div>
   );
 }
